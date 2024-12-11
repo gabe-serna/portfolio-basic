@@ -6,7 +6,7 @@ import { CodeXml } from "lucide-react";
 export default function HeroSection() {
   return (
     <section
-      id="hero"
+      id="Hero"
       className="flex min-h-[80vh] items-center justify-center"
     >
       <div className="grid grid-cols-2 items-start">

@@ -24,7 +24,7 @@ export default function ProjectsSection() {
 
   return (
     <section
-      id="projects"
+      id="Projects"
       className="flex min-h-[80vh] flex-col justify-center"
     >
       <h1 className="uppercase text-muted-foreground">Personal Projects</h1>
@@ -54,7 +54,7 @@ export default function ProjectsSection() {
                 Songscribe is a web app that uses machine learning algorithms to
                 instantly generate sheet music for any song. Refine the MIDI
                 transcription with several adjustable parameters, and export the
-                final score as a PDF.
+                final score for further adjustment.
               </DialogDescription>
             </DialogHeader>
             <div className="flex flex-col">

@@ -66,3 +66,7 @@ h6 {
 ::-webkit-scrollbar-track {
   background-color: var(--background);
 }
+
+html {
+  scroll-behavior: smooth;
+}

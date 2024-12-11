@@ -3,7 +3,7 @@ import TechCard from "@/components/TechCard";
 export default function TechSection() {
   return (
     <section
-      id="technologies"
+      id="Technologies"
       className="flex min-h-[60vh] flex-col justify-center"
     >
       <h1 className="uppercase text-muted-foreground">Current Technologies</h1>

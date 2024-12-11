@@ -5,7 +5,7 @@ export default function ExperienceSection() {
   return (
     <section
       id="Experience"
-      className="flex min-h-[80vh] flex-col justify-center"
+      className="flex min-h-[100vh] flex-col justify-center"
     >
       <h1 className="uppercase text-muted-foreground">Experience</h1>
       <div

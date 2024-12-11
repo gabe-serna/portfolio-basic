@@ -19,7 +19,7 @@ export default function ProjectCard({ name, description, tech }: Props) {
   const src = `/projects/${name.replace(/\s/g, "")}Hero.png`;
 
   return (
-    <Card className="flex flex-col overflow-clip group-focus-visible:border-red-400 group-focus-visible:bg-popover">
+    <Card className="flex h-full flex-col overflow-clip group-focus-visible:border-red-400 group-focus-visible:bg-popover">
       <Image
         src={src}
         alt={`${name} Hero Image`}
@@ -27,8 +27,8 @@ export default function ProjectCard({ name, description, tech }: Props) {
         height={200}
         className="h-48 object-cover object-[50%_40%]"
       />
-      <CardFooter className="mt-auto flex-row items-center gap-4 pt-4 text-left">
-        <div>
+      <CardFooter className="h-full flex-row items-center gap-4 pt-4 text-left">
+        <div className="flex flex-col">
           <CardTitle className="text-lg">{name}</CardTitle>
           <CardDescription className="text-sm text-secondary-foreground">
             {description}
