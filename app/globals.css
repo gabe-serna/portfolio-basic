@@ -24,11 +24,11 @@ h6 {
     --popover: 350 8% 14%;
     --popover-foreground: 27 57% 92%;
     --primary: 27 57% 92%;
-    --primary-foreground: 348 7% 52%;
+    --primary-foreground: 347 8% 65%;
     --secondary: 12 6.5% 15.1%;
-    --secondary-foreground: 352 8% 36%;
+    --secondary-foreground: 348 7% 52%;
     --muted: 12 6.5% 15.1%;
-    --muted-foreground: 24 5.4% 63.9%;
+    --muted-foreground: 352 8% 36%;
     --accent: 12 6.5% 15.1%;
     --accent-foreground: 27 57% 92%;
     --destructive: 0 62.8% 30.6%;

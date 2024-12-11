@@ -13,7 +13,7 @@ const body = Asap({
 });
 
 export const metadata: Metadata = {
-  title: "Gabe Serna Portfolio",
+  title: "Gabe Serna- Web Developer",
   description: "Frontend Developer specializing in Next.js and Typescript",
 };
 

@@ -33,7 +33,7 @@ export default function TechCard({ name, color, description }: Props) {
         </span>
         <div>
           <CardTitle className="text-lg">{name}</CardTitle>
-          <CardDescription className="text-sm text-primary-foreground">
+          <CardDescription className="text-sm text-secondary-foreground">
             {description}
           </CardDescription>
         </div>
