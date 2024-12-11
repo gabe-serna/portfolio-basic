@@ -65,7 +65,7 @@ export default function Home() {
           <h1 className="uppercase text-muted-foreground">
             Current Technologies
           </h1>
-          <div className="mt-4 grid w-full grid-cols-3 gap-4">
+          <div className="mt-4 grid w-full grid-cols-3 gap-4 max-lg:grid-cols-2">
             <TechCard
               name="TypeScript"
               description="Javascript but better"
