@@ -48,15 +48,37 @@ export default function Home() {
           <h1 className="uppercase text-secondary-foreground">
             Current Technologies
           </h1>
-          <div className="grid w-[800px] grid-cols-4">
-            <TechCard />
-            <TechCard />
-            <TechCard />
-            <TechCard />
-            <TechCard />
-            <TechCard />
-            <TechCard />
-            <TechCard />
+          <div className="mt-4 grid w-[800px] grid-cols-3 gap-4">
+            <TechCard
+              name="TypeScript"
+              description="Javascript but better"
+              color="bg-blue-400/15"
+            />
+            <TechCard
+              name="React"
+              description="Javascript Library"
+              color="bg-sky-400/15"
+            />
+            <TechCard
+              name="Next.js"
+              description="React Framework"
+              color="bg-gray-400/20"
+            />
+            <TechCard
+              name="Tailwind CSS"
+              description="CSS Framework"
+              color="bg-cyan-400/15"
+            />
+            <TechCard
+              name="Figma"
+              description="Design Tool"
+              color="bg-green-400/15"
+            />
+            <TechCard
+              name="Node.js"
+              description="Javascript Runtime"
+              color="bg-lime-500/15"
+            />
           </div>
         </section>
       </main>

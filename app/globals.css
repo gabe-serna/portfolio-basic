@@ -15,12 +15,6 @@ h6 {
   font-family: var(--font-heading);
 }
 
-/*
-* #635456 - slightly darkened text 
-* #645557 - darkened text
-* #493d3f - muted text
-*/
-
 @layer base {
   :root {
     --background: 350 8% 14%;
@@ -30,7 +24,7 @@ h6 {
     --popover: 350 8% 14%;
     --popover-foreground: 27 57% 92%;
     --primary: 27 57% 92%;
-    --primary-foreground: 348 8% 48%;
+    --primary-foreground: 348 7% 52%;
     --secondary: 12 6.5% 15.1%;
     --secondary-foreground: 352 8% 36%;
     --muted: 12 6.5% 15.1%;
