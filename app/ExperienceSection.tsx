@@ -28,7 +28,7 @@ export default function ExperienceSection() {
                   <h2 className="text-base text-primary-foreground">
                     JavaScript Developer
                   </h2>
-                  <p className="text-base text-secondary-foreground">
+                  <p className="text-base font-bold tracking-[0.0125em] text-muted-foreground">
                     Pure Mitti
                   </p>
                 </span>
@@ -37,7 +37,7 @@ export default function ExperienceSection() {
                 <p>Oct 2023 - Sep 2024</p>
               </div>
             </figure>
-            <p className="ml-[3.125rem] mt-4 w-[46ch] text-base font-normal text-secondary-foreground">
+            <p className="ml-[3.25rem] mt-4 w-[46ch] text-base font-normal text-secondary-foreground">
               Developed custom dashboards and tools to automate e-commerce
               workflows and deliver data-driven insights.
             </p>
@@ -59,7 +59,7 @@ export default function ExperienceSection() {
                   <h2 className="text-base text-primary-foreground">
                     Web Development Certificate
                   </h2>
-                  <p className="text-base text-secondary-foreground">
+                  <p className="text-base font-bold tracking-[0.0125em] text-muted-foreground">
                     County College of Morris
                   </p>
                 </span>
@@ -68,7 +68,7 @@ export default function ExperienceSection() {
                 <p>Sep 2024 - May 2025</p>
               </div>
             </figure>
-            <p className="ml-[3.125rem] mt-4 w-[47ch] text-base font-normal text-secondary-foreground">
+            <p className="ml-[3.3rem] mt-4 w-[47ch] text-base font-normal text-secondary-foreground">
               Formed a strong foundation in computer science and web development
               by studying HTML, CSS, and JavaScript.
             </p>
