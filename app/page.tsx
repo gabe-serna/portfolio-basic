@@ -7,9 +7,12 @@ export default function Home() {
   return (
     <div className="grid min-h-screen items-center justify-items-center gap-16 p-8 pb-20 sm:p-20">
       <main>
-        <section id="hero">
-          <div className="flex items-start justify-between">
-            <div className="flex flex-col items-center gap-2 sm:items-start">
+        <section
+          id="hero"
+          className="flex min-h-[80vh] items-center justify-center"
+        >
+          <div className="grid grid-cols-2 items-start">
+            <div className="flex h-min flex-col items-center gap-2 sm:items-start">
               <h1 className="uppercase text-muted-foreground">About Me</h1>
               <h2 className="w-[9ch] text-5xl leading-tight">
                 Hey, I'm <span className="text-red-400">Gabe Serna</span>
@@ -33,10 +36,8 @@ export default function Home() {
               alt="Gabe Serna Headshot"
               width={300}
               height={300}
-              className="ml-24 -translate-y-6"
+              className="ml-auto -translate-y-6"
             />
-          </div>
-          <div className="flex items-start justify-between">
             <span className="mt-12 text-primary-foreground">
               <p>I'm a dispassionate, uncaring web developer. Just kidding.</p>
               <p className="mt-6 w-[50ch]">
@@ -44,8 +45,8 @@ export default function Home() {
                 beautiful websites with Next.js and Typescript.
               </p>
             </span>
-            <span className="mt-12 flex gap-2">
-              <SocialsCard name="LinkedInDark" />
+            <span className="ml-auto mr-[calc(150px-72.8px)] mt-12 flex w-fit gap-2">
+              <SocialsCard name="LinkedIn" />
               <SocialsCard name="GitHub" />
               <SocialsCard name="Resume" />
             </span>
@@ -55,7 +56,7 @@ export default function Home() {
           <h1 className="uppercase text-muted-foreground">
             Current Technologies
           </h1>
-          <div className="mt-4 grid w-[800px] grid-cols-3 gap-4">
+          <div className="mt-4 grid w-full grid-cols-3 gap-4">
             <TechCard
               name="TypeScript"
               description="Javascript but better"
