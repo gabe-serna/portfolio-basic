@@ -1,12 +1,8 @@
 import SocialsCard from "@/components/SocialsCard";
 import TechCard from "@/components/TechCard";
-import {
-  BriefcaseBusiness,
-  CodeXml,
-  MapPin,
-  RectangleVertical,
-} from "lucide-react";
+import { BriefcaseBusiness, CodeXml, MapPin } from "lucide-react";
 import Image from "next/image";
+import ExperienceSection from "./ExperienceSection";
 
 export default function Home() {
   return (
@@ -102,26 +98,7 @@ export default function Home() {
             />
           </div>
         </section>
-        <section
-          id="Experience"
-          className="flex min-h-[60vh] flex-col justify-center"
-        >
-          <h1 className="uppercase text-muted-foreground">Experience</h1>
-          <div className="mt-4 flex w-full text-lg font-semibold [font-family:var(--font-heading)]">
-            <span>
-              <ol className="space-y-2">
-                <li className="flex items-center gap-2">
-                  <div className="h-6 w-1 rounded-md bg-red-400" />
-                  Work
-                </li>
-                <li className="flex items-center gap-2 text-muted-foreground">
-                  <div className="h-6 w-1 rounded-md bg-popover" />
-                  Education
-                </li>
-              </ol>
-            </span>
-          </div>
-        </section>
+        <ExperienceSection />
       </main>
     </div>
   );

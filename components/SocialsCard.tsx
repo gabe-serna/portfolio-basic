@@ -16,19 +16,19 @@ export default function SocialsCard({ name }: { name: string }) {
   switch (name) {
     case "LinkedIn":
       icon = (
-        <LinkedInIcon className="text-secondary-foreground transition-colors [transition-duration:250ms] group-hover:text-primary-foreground group-focus-visible:text-primary-foreground" />
+        <LinkedInIcon className="text-muted-foreground transition-colors [transition-duration:250ms] group-hover:text-secondary-foreground group-focus-visible:text-secondary-foreground" />
       );
       link = "https://www.linkedin.com/in/gabe-serna/";
       break;
     case "GitHub":
       icon = (
-        <GitHubIcon className="text-secondary-foreground transition-colors [transition-duration:250ms] group-hover:text-primary-foreground group-focus-visible:text-primary-foreground" />
+        <GitHubIcon className="text-muted-foreground transition-colors [transition-duration:250ms] group-hover:text-secondary-foreground group-focus-visible:text-secondary-foreground" />
       );
       link = "https://github.com/gabe-serna";
       break;
     case "Resume":
       icon = (
-        <Download className="stroke-secondary-foreground stroke-[2.5] p-0.5 transition-colors [transition-duration:250ms] group-hover:stroke-primary-foreground group-focus-visible:stroke-primary-foreground" />
+        <Download className="stroke-muted-foreground stroke-[2.5] p-0.5 transition-colors [transition-duration:250ms] group-hover:stroke-secondary-foreground group-focus-visible:stroke-secondary-foreground" />
       );
       link = "https://example.com/resume";
       break;
@@ -47,7 +47,7 @@ export default function SocialsCard({ name }: { name: string }) {
             rel="noopener noreferrer"
             className="group focus-visible:outline-none"
           >
-            <Card className="cursor-pointer border-popover bg-popover hover:bg-muted-foreground group-focus-visible:border-red-400 group-focus-visible:bg-muted-foreground">
+            <Card className="cursor-pointer group-focus-visible:border-red-400 group-focus-visible:bg-popover">
               <CardHeader className="flex-row items-center p-2">
                 {icon}
                 <CardDescription className="sr-only text-sm text-secondary-foreground">
