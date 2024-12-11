@@ -53,3 +53,16 @@ h6 {
     @apply bg-background text-foreground;
   }
 }
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-muted-foreground;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--background);
+}
