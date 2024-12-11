@@ -1,3 +1,4 @@
+import TechCard from "@/components/TechCard";
 import { BriefcaseBusiness, CodeXml, MapPin } from "lucide-react";
 import Image from "next/image";
 
@@ -42,6 +43,21 @@ export default function Home() {
             I view web development as an art, and I strive to create beautiful
             websites with Next.js and Typescript.
           </p>
+        </section>
+        <section id="technologies" className="mt-72">
+          <h1 className="uppercase text-secondary-foreground">
+            Current Technologies
+          </h1>
+          <div className="grid w-[800px] grid-cols-4">
+            <TechCard />
+            <TechCard />
+            <TechCard />
+            <TechCard />
+            <TechCard />
+            <TechCard />
+            <TechCard />
+            <TechCard />
+          </div>
         </section>
       </main>
     </div>
