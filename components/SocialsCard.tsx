@@ -47,7 +47,7 @@ export default function SocialsCard({ name }: { name: string }) {
             rel="noopener noreferrer"
             className="group focus-visible:outline-none"
           >
-            <Card className="cursor-pointer border-[#493d3f] bg-[#493d3f] hover:bg-muted-foreground group-focus-visible:border-red-400 group-focus-visible:bg-muted-foreground">
+            <Card className="cursor-pointer border-popover bg-popover hover:bg-muted-foreground group-focus-visible:border-red-400 group-focus-visible:bg-muted-foreground">
               <CardHeader className="flex-row items-center p-2">
                 {icon}
                 <CardDescription className="sr-only text-sm text-secondary-foreground">

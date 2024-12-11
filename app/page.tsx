@@ -1,6 +1,11 @@
 import SocialsCard from "@/components/SocialsCard";
 import TechCard from "@/components/TechCard";
-import { BriefcaseBusiness, CodeXml, MapPin } from "lucide-react";
+import {
+  BriefcaseBusiness,
+  CodeXml,
+  MapPin,
+  RectangleVertical,
+} from "lucide-react";
 import Image from "next/image";
 
 export default function Home() {
@@ -39,10 +44,15 @@ export default function Home() {
               className="ml-auto -translate-y-6"
             />
             <span className="mt-12 text-primary-foreground">
-              <p>I'm a dispassionate, uncaring web developer. Just kidding.</p>
+              <p>
+                I'm a <b>dispassionate</b>, uncaring web developer.{" "}
+                <em>Just kidding.</em>
+              </p>
               <p className="mt-6 w-[50ch]">
                 I view web development as an art, and I strive to create
-                beautiful websites with Next.js and Typescript.
+                beautiful websites with{" "}
+                <span className="font-semibold">Next.js</span> and{" "}
+                <span className="font-semibold">TypeScript</span>.
               </p>
             </span>
             <span className="ml-auto mr-[calc(150px-72.8px)] mt-12 flex w-fit gap-2">
@@ -52,7 +62,10 @@ export default function Home() {
             </span>
           </div>
         </section>
-        <section id="technologies" className="mt-72">
+        <section
+          id="technologies"
+          className="flex min-h-[60vh] flex-col justify-center"
+        >
           <h1 className="uppercase text-muted-foreground">
             Current Technologies
           </h1>
@@ -87,6 +100,26 @@ export default function Home() {
               description="Design Tool"
               color="bg-green-400/15"
             />
+          </div>
+        </section>
+        <section
+          id="Experience"
+          className="flex min-h-[60vh] flex-col justify-center"
+        >
+          <h1 className="uppercase text-muted-foreground">Experience</h1>
+          <div className="mt-4 flex w-full text-lg font-semibold [font-family:var(--font-heading)]">
+            <span>
+              <ol className="space-y-2">
+                <li className="flex items-center gap-2">
+                  <div className="h-6 w-1 rounded-md bg-red-400" />
+                  Work
+                </li>
+                <li className="flex items-center gap-2 text-muted-foreground">
+                  <div className="h-6 w-1 rounded-md bg-popover" />
+                  Education
+                </li>
+              </ol>
+            </span>
           </div>
         </section>
       </main>
