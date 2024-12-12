@@ -8,8 +8,6 @@ import {
 } from "@/components/ui/dialog";
 import ProjectCard from "@/components/ProjectCard";
 import Image from "next/image";
-import { Globe } from "lucide-react";
-import GitHubIcon from "@/components/GitHubIcon";
 import TechBadge from "@/components/TechBadge";
 import ProjectLink from "@/components/ProjectLink";
 

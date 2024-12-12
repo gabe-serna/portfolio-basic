@@ -48,9 +48,10 @@ export default function HeroSection() {
             <strong> development</strong> on your team.
           </p>
         </span>
-        <span className="col-start-2 mt-12 flex w-fit gap-2 max-lg:col-start-1 max-lg:row-start-2 lg:ml-auto lg:mr-[calc(150px-72.8px)]">
+        <span className="col-start-2 mt-12 flex w-fit gap-2 max-lg:col-start-1 max-lg:row-start-2 lg:ml-auto lg:mr-[calc(150px-98.4px)]">
           <SocialsCard name="LinkedIn" />
           <SocialsCard name="GitHub" />
+          <SocialsCard name="Email" />
           <SocialsCard name="Resume" />
         </span>
       </div>
