@@ -7,6 +7,7 @@ export default function PureMittiIcon() {
       width="45"
       height="45"
       viewBox="0, 0, 400,425.44910179640715"
+      className="min-h-[45px] min-w-[45px]"
     >
       <g id="svgg">
         <path

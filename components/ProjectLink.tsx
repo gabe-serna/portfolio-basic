@@ -14,7 +14,7 @@ export default function ProjectLink({ name, link, disabled = false }: Props) {
         className={`size-4 ${!disabled ? "stroke-secondary-foreground" : "stroke-muted-foreground"}`}
       />
     ) : (
-      <GitHubIcon className="size-4" />
+      <GitHubIcon className="size-[1rem]" />
     );
 
   if (!disabled)

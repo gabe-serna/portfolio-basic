@@ -41,7 +41,7 @@ export default function TechBadge({ name }: { name: string }) {
 
   return (
     <span
-      className={`w-fit rounded-sm px-2 py-1.5 text-xs ${background} ${text}`}
+      className={`w-fit text-nowrap rounded-sm px-2 py-1.5 text-xs ${background} ${text}`}
     >
       {name}
     </span>

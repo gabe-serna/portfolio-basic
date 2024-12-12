@@ -16,7 +16,7 @@ interface Props {
 
 export default function TechCard({ name, color, description }: Props) {
   return (
-    <Card>
+    <Card className="w-full">
       <CardHeader className="flex-row items-center gap-4">
         <span
           className={`flex size-14 items-center justify-center rounded-sm ${color}`}
@@ -27,13 +27,14 @@ export default function TechCard({ name, color, description }: Props) {
             width={35}
             height={35}
             className={
-              "rounded-sm" + (color === "bg-gray-400/20" ? " invert" : "")
+              "size-[30px] rounded-sm sm:size-[35px] " +
+              (color === "bg-gray-400/20" ? " invert" : "")
             }
           />
         </span>
         <div>
-          <CardTitle className="text-lg">{name}</CardTitle>
-          <CardDescription className="text-sm text-secondary-foreground">
+          <CardTitle className="text-base sm:text-lg">{name}</CardTitle>
+          <CardDescription className="text-xs text-secondary-foreground sm:text-sm">
             {description}
           </CardDescription>
         </div>

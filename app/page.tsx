@@ -37,10 +37,10 @@ export default function Home() {
   return (
     <div
       id="Top"
-      className="grid min-h-screen items-center justify-items-center gap-16 p-8 pb-20 sm:p-20"
+      className="grid min-h-screen items-center justify-items-center gap-16 p-8 pb-20 max-sm:w-screen sm:p-20"
     >
-      <nav className="fixed top-0 z-50 flex h-20 w-full items-center justify-center bg-background px-20">
-        <span className="flex w-full max-w-[1022.4px] items-center justify-between text-muted-foreground [font-family:var(--font-heading)] *:uppercase">
+      <nav className="fixed top-0 z-50 flex h-20 w-screen items-center justify-center bg-background px-8 sm:w-full sm:px-20">
+        <span className="flex w-full max-w-[1022.4px] items-center justify-between text-muted-foreground [font-family:var(--font-heading)] *:uppercase max-sm:text-xs">
           <button
             onClick={() => scrollToSection("Top")}
             className="text-secondary-foreground"

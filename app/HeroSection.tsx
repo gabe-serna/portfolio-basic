@@ -7,10 +7,10 @@ export default function HeroSection() {
   return (
     <section
       id="Hero"
-      className="flex min-h-[80vh] items-center justify-center"
+      className="flex min-h-screen items-center sm:min-h-[80vh] sm:justify-center"
     >
-      <div className="grid grid-cols-2 items-start">
-        <div className="flex h-min flex-col items-center gap-2 sm:items-start">
+      <div className="grid grid-cols-1 items-start sm:grid-cols-2">
+        <div className="flex h-min w-min flex-col items-start gap-2">
           <h1 className="uppercase text-muted-foreground">About Me</h1>
           <h2 className="w-[9ch] text-5xl leading-tight">
             Hey, I'm <span className="text-red-400">Gabe Serna</span>
@@ -34,20 +34,21 @@ export default function HeroSection() {
           alt="Gabe Serna Headshot"
           width={300}
           height={300}
-          className="ml-auto -translate-y-6"
+          className="ml-auto size-[200px] -translate-y-6 max-md:mt-auto max-sm:hidden md:size-[300px]"
+          priority
         />
-        <span className="mt-12 text-primary-foreground">
+        <span className="row-start-4 mt-12 w-min text-primary-foreground max-lg:row-start-3">
           <p>
             I'm a <b>dispassionate</b>, uncaring web developer.
             <em> Just kidding.</em>
           </p>
-          <p className="mt-6 w-[50ch]">
+          <p className="mt-6 min-w-[30ch] sm:w-[40ch] lg:w-[50ch]">
             With an eye for detail, I can help bridge the gap between
             <strong> design</strong> and
             <strong> development</strong> on your team.
           </p>
         </span>
-        <span className="ml-auto mr-[calc(150px-72.8px)] mt-12 flex w-fit gap-2">
+        <span className="mt-12 flex w-fit gap-2 max-lg:col-start-1 max-lg:row-start-2 lg:ml-auto lg:mr-[calc(150px-72.8px)]">
           <SocialsCard name="LinkedIn" />
           <SocialsCard name="GitHub" />
           <SocialsCard name="Resume" />

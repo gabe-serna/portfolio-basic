@@ -7,6 +7,7 @@ export default function CCMIcon() {
       width="45"
       height="45"
       viewBox="0, 0, 400,400"
+      className="min-h-[45px] min-w-[45px]"
     >
       <g id="svgg">
         <path

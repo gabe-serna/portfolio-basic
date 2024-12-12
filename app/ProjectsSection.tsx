@@ -27,8 +27,10 @@ export default function ProjectsSection() {
       id="Projects"
       className="flex min-h-[80vh] flex-col justify-center"
     >
-      <h1 className="uppercase text-muted-foreground">Personal Projects</h1>
-      <div className="mt-4 grid w-full grid-cols-2 gap-4">
+      <h1 className="w-fit uppercase text-muted-foreground">
+        Personal Projects
+      </h1>
+      <div className="grid-col-1 mt-4 grid w-min gap-8 md:grid-cols-2 md:gap-4">
         <Dialog>
           <DialogTrigger className="group focus-visible:outline-0">
             <ProjectCard
@@ -37,8 +39,8 @@ export default function ProjectsSection() {
               tech={songscribeTech}
             />
           </DialogTrigger>
-          <DialogContent className="flex">
-            <DialogHeader>
+          <DialogContent className="flex flex-col sm:flex-row">
+            <DialogHeader className="text-left">
               <DialogTitle>Songscribe</DialogTitle>
               <span className="flex gap-2">
                 <ProjectLink name="Website" link="https://songscribe.xyz" />
@@ -47,7 +49,7 @@ export default function ProjectsSection() {
                   link="https://github.com/gabe-serna/songscribe"
                 />
               </span>
-              <DialogDescription className="mr-4 w-[40ch]">
+              <DialogDescription className="mr-4 sm:w-[40ch]">
                 A web app for musicians to jump start the process of
                 transcribing music.
                 <br /> <br />
@@ -66,7 +68,7 @@ export default function ProjectsSection() {
                 className="h-48 rounded-lg object-cover object-[50%_40%]"
               />
               <h2 className="mt-8">Frontend:</h2>
-              <span className="mt-1 flex gap-2">
+              <span className="mt-1 flex flex-wrap gap-2">
                 <TechBadge name="TypeScript" />
                 <TechBadge name="React" />
                 <TechBadge name="Next.js" />
@@ -95,8 +97,8 @@ export default function ProjectsSection() {
               ]}
             />
           </DialogTrigger>
-          <DialogContent className="flex">
-            <DialogHeader>
+          <DialogContent className="flex flex-col sm:flex-row">
+            <DialogHeader className="text-left">
               <DialogTitle>Where to Live</DialogTitle>
               <span className="flex gap-2">
                 <ProjectLink
@@ -109,10 +111,10 @@ export default function ProjectsSection() {
                   link="https://github.com/gabe-serna/where-to-live"
                 />
               </span>
-              <DialogDescription className="mr-4 w-[40ch]">
+              <DialogDescription className="mr-4 sm:w-[40ch]">
                 Find the perfect place in world to live based on your
-                preferences{" "}
-                <i className="text-secondary-foreground/60">(coming soon)</i>.
+                preferences
+                <i className="text-secondary-foreground/60"> (coming soon)</i>.
                 <br /> <br />
                 Where to Live is a web app currently under development that will
                 visualize the best places to live in the world based on your own
@@ -128,7 +130,7 @@ export default function ProjectsSection() {
                 className="h-48 rounded-lg object-cover object-[50%_40%]"
               />
               <h2 className="mt-8">Frontend:</h2>
-              <span className="mt-1 flex gap-2">
+              <span className="mt-1 flex flex-wrap gap-2">
                 <TechBadge name="TypeScript" />
                 <TechBadge name="React" />
                 <TechBadge name="Next.js" />
