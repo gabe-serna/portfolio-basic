@@ -34,10 +34,10 @@ export default function HeroSection() {
           alt="Gabe Serna Headshot"
           width={300}
           height={300}
-          className="ml-auto size-[200px] -translate-y-6 max-md:mt-auto max-sm:hidden md:size-[300px]"
+          className="size-[200px] translate-y-6 max-sm:row-start-3 max-sm:mt-auto sm:ml-auto md:size-[300px] md:-translate-y-6"
           priority
         />
-        <span className="row-start-4 mt-12 w-min text-primary-foreground max-lg:row-start-3">
+        <span className="row-start-4 mt-12 w-min text-primary-foreground lg:row-start-2">
           <p>
             I'm a <b>dispassionate</b>, uncaring web developer.
             <em> Just kidding.</em>
@@ -48,7 +48,7 @@ export default function HeroSection() {
             <strong> development</strong> on your team.
           </p>
         </span>
-        <span className="mt-12 flex w-fit gap-2 max-lg:col-start-1 max-lg:row-start-2 lg:ml-auto lg:mr-[calc(150px-72.8px)]">
+        <span className="col-start-2 mt-12 flex w-fit gap-2 max-lg:col-start-1 max-lg:row-start-2 lg:ml-auto lg:mr-[calc(150px-72.8px)]">
           <SocialsCard name="LinkedIn" />
           <SocialsCard name="GitHub" />
           <SocialsCard name="Resume" />

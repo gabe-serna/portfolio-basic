@@ -25,12 +25,12 @@ export default function ProjectsSection() {
   return (
     <section
       id="Projects"
-      className="flex min-h-[80vh] flex-col justify-center"
+      className="flex min-h-[80vh] max-w-[1022.4px] flex-col justify-center"
     >
       <h1 className="w-fit uppercase text-muted-foreground">
         Personal Projects
       </h1>
-      <div className="grid-col-1 mt-4 grid w-min gap-8 md:grid-cols-2 md:gap-4">
+      <div className="grid-col-1 mt-4 grid w-full gap-8 md:grid-cols-2 md:gap-4">
         <Dialog>
           <DialogTrigger className="group focus-visible:outline-0">
             <ProjectCard
@@ -39,7 +39,7 @@ export default function ProjectsSection() {
               tech={songscribeTech}
             />
           </DialogTrigger>
-          <DialogContent className="flex flex-col sm:flex-row">
+          <DialogContent className="flex flex-col lg:flex-row">
             <DialogHeader className="text-left">
               <DialogTitle>Songscribe</DialogTitle>
               <span className="flex gap-2">
@@ -97,7 +97,7 @@ export default function ProjectsSection() {
               ]}
             />
           </DialogTrigger>
-          <DialogContent className="flex flex-col sm:flex-row">
+          <DialogContent className="flex flex-col lg:flex-row">
             <DialogHeader className="text-left">
               <DialogTitle>Where to Live</DialogTitle>
               <span className="flex gap-2">

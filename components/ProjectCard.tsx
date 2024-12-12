@@ -19,7 +19,7 @@ export default function ProjectCard({ name, description, tech }: Props) {
   const src = `/projects/${name.replace(/\s/g, "")}Hero.png`;
 
   return (
-    <Card className="flex h-full w-min flex-col overflow-clip group-focus-visible:border-red-400 group-focus-visible:bg-popover">
+    <Card className="flex h-full w-full flex-col overflow-clip group-focus-visible:border-red-400 group-focus-visible:bg-popover">
       <Image
         src={src}
         alt={`${name} Hero Image`}

@@ -4,12 +4,12 @@ export default function TechSection() {
   return (
     <section
       id="Technologies"
-      className="flex min-h-[80vh] flex-col justify-center"
+      className="flex min-h-screen flex-col justify-center sm:min-h-[80vh]"
     >
       <h1 className="w-max uppercase text-muted-foreground">
         Current Technologies
       </h1>
-      <div className="mt-4 grid w-fit grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="mt-4 grid w-full grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
         <TechCard
           name="TypeScript"
           description="Javascript but better"
