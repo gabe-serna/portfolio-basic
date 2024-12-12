@@ -46,7 +46,7 @@ export default function Home() {
         <span className="flex w-full max-w-[1022.4px] items-center justify-between text-muted-foreground [font-family:var(--font-heading)] *:uppercase max-sm:text-xs">
           <button
             onClick={() => scrollToSection("Top")}
-            className="text-secondary-foreground"
+            className="text-left text-secondary-foreground"
           >
             Gabe Serna
           </button>
@@ -63,19 +63,20 @@ export default function Home() {
           </div>
         </span>
       </nav>
+      <div className="w-full sm:hidden" />
       <main>
         <HeroSection />
         <TechSection />
         <ExperienceSection />
         <ProjectsSection />
       </main>
-      <div className="h-20 w-full" />
+      <div className="h-[161.6px] w-full sm:h-[121.6px]" />
       <footer className="absolute bottom-0 flex min-h-20 w-full items-center justify-center bg-card p-8 sm:px-20">
         <span className="flex w-full max-w-[1022.4px] flex-col items-start justify-between sm:flex-row sm:items-center">
           <p className="text-muted-foreground">
             &copy; {new Date().getFullYear()} Gabe Serna
           </p>
-          <div className="flex flex-col gap-2 text-muted-foreground">
+          <div className="flex flex-col gap-2 text-muted-foreground max-sm:mt-4">
             <p>Let's Get in Touch!</p>
             <span className="flex gap-2">
               <a
